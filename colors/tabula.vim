@@ -556,6 +556,8 @@ call TabulaSettingBoldStatement()
 
 hi Identifier		guifg=#FDAE5A					ctermfg=215			cterm=NONE
 hi Type			guifg=#F269E4	guibg=bg	gui=NONE	ctermfg=213
+hi IndentGuidesOdd ctermbg=30
+hi IndentGuidesEven ctermbg=25
 
 "------------------------------------------------------------------------------
 " Language Specials:							   {{{4
@@ -564,6 +566,7 @@ hi Type			guifg=#F269E4	guibg=bg	gui=NONE	ctermfg=213
 hi pythonPreCondit							ctermfg=2			cterm=NONE
 hi tkWidget		guifg=#D5B11C	guibg=bg	gui=bold	ctermfg=7			cterm=bold
 hi tclBookends		guifg=#7CFC94	guibg=NONE	gui=bold	ctermfg=2			cterm=bold
+hi ColorColumn ctermbg=68
 
 "==================================== HTML =============================== {{{3
 "
